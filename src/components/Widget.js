@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Widget = () => (
-    <li>Widget</li>
+const Widget = ({widget}) => (
+    <li>{widget.text}</li>
 )
 export default Widget
